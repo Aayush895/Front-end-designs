@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.7;
+  padding: 30px;
+}
+.header{
+  height: 95vh;
+  background-image:linear-gradient(to right bottom,rgba(255, 0, 0, 0.5),rgba(255, 0, 0, 0.7)),url("images/gym.jpg");
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+.navbarHead{
+  text-transform: uppercase;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.navbarItems{
+  text-transform: uppercase;
+}
+.navbarItems:hover{
+  transform: translateY(-1.5px);
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px;
+}
+.navbarItems:active{
+  transform: translateY(-.5px);
+}
+.home{
+  position: absolute;
+  top: 45px;
+  left: 450px;
+}
+.about{
+  position: absolute;
+  top: 45px;
+  left: 570px;
+}
+.courses{
+  position: absolute;
+  top: 45px;
+  left: 690px;
+}
+.pricing{
+  position: absolute;
+  top: 45px;
+  left: 820px;
+}
+.gallery{
+  position: absolute;
+  top: 45px;
+  left: 930px;
+}
+.blog{
+  position: absolute;
+  top: 45px;
+  left: 1050px;
+}
+.contact{
+  position: absolute;
+  top: 45px;
+  left: 270px;
+}
+.btn-red:link,.btn-red:visited{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: red;
+  border:1px solid #fff;
+  display: inline-block;
+  padding: 10px 30px;
+  position: relative;
+  top: 40px;
+  left: 1260px;
+}
+.btn-red:hover{
+  background-color: #eb8f8f;
+}
+.text-box{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.heading-primary{
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 60px;
+}
+.heading-primary-main{
+  display: block;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 10px;
+  animation: moveLeft 1s ease-in;
+}
+.heading-primary-sub{
+  display: block;
+  font-size: 70px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  animation: moveRight 1s ease-in;
+}
+@keyframes moveLeft {
+  0%{
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  80%{
+    transform: translateX(10px);
+  }
+  100%{
+    transform: translate(0);
+  }
+}
+@keyframes moveRight {
+  0%{
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  80%{
+    transform: translateX(-10px);
+  }
+  100%{
+    transform: translate(0);
+  }
+}
+.btn:link,.btn:visited{
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 100px;
+}
+.btn:hover{
+  background-color: #eb8f8f;
+}
