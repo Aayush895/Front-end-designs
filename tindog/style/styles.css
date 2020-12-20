@@ -1,0 +1,145 @@
+#Title{
+  background-color: #ff4c68;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+}
+@media (max-width: 1028px) {
+  .img1{
+    position: static !important;
+    transform: rotate(0) !important;
+    margin-left: 160px;
+  }
+}
+.heading{
+  margin: 200px;
+  line-height: 1.5;
+  font-size: 3rem;
+  width: 74%;
+  position: relative;
+  bottom: 160px;
+}
+.img1{
+  /* padding-left: 65px; */
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+.container-fluid{
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.navbar{
+  margin:  5px 179px;
+}
+.navbar-brand{
+  font-size: 2.5rem !important;
+  font-weight: bold;
+  font-family: 'Ubuntu';
+}
+.download-btn{
+  margin-left: 200px;
+  position: relative;
+  bottom: 260px;
+}
+.download-btn1{
+  margin-left: 10px;
+  position: relative;
+  bottom: 260px;
+}
+#features{
+  position: relative;
+  z-index: 1;
+  padding: 7% 15%;
+  background-color: #fff;
+  text-align: center;
+  font-family: 'Montserrat';
+  line-height: 1.5
+}
+.feature{
+  color: #8f8f8f;
+  width: 66%;
+  margin: auto;
+  font-family: 'Ubuntu';
+}
+.fas{
+  margin-bottom: 20px;
+  color: #ef8172;
+}
+.fas:hover{
+  color: #ff4c68;
+}
+#Testimonials{
+  text-align: center;
+  font-family: 'Montserrat';
+  background-color: #ef8172;
+  color: #fff;
+
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100px;
+  margin: 20px;
+}
+.heading2{
+  width: 87%;
+  margin:auto;
+  font-weight: 900;
+  font-family: 'Montserrat-black';
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding: 7% 10%;
+}
+#pricing{
+  text-align: center;
+  padding: 7% 15%;
+
+}
+.Price{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-family: 'Montserrat-bold';
+  font-weight: 900;
+}
+p{
+  color: #8f8f8f;
+}
+h3{
+  font-family: 'Montserrat-bold';
+  font-weight: 900;
+  font-size: 3rem;
+}
+.btn{
+  padding: 4px 35%;
+}
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+.h3{
+  font-family: 'Montserrat' !important;
+  line-height: 1.5 !important;
+  font-size: 3rem !important;
+  color: white !important;
+}
+.cta-button{
+  position: relative;
+  top:40px;
+  margin: 10px;
+}
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+.symbols{
+  padding: 10px;
+}
